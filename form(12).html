@@ -1,0 +1,52 @@
+ <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>htmltut</title>
+  </head>
+  <body>
+    <h1>Form</h1>
+    <form action="register.php" method="post">
+      <label for="firstname">first name</label>
+      <input type="text" name="fname" />
+      <label for="lastname">last name</label>
+      <input type="text" name="lname" /><br />
+      <label for="age">Age</label>
+      <input type="number " name="age" />
+
+      <hr />
+
+      <br />
+      <label for="email">Email</label>
+      <input type="email" name="email" />
+      <label for="password">Password</label>
+      <input type="password" name="password" />
+
+      <br />
+      <!-- 
+<label for="gender">Gender :</label>
+<input type="radio" name="gender" value="male"/>
+<label for="male">Male</label>
+<input type="radio" name="gender" value="famale"/>
+<label for="famale">Famale</label> 
+-->
+
+      <!-- radio يمكنك اختيار واحد من الاختيارات المتاحه واحد فقط -->
+      <label for="gender">Gender :</label>
+      <input type="radio" name="gender" value="male" />Male
+      <input type="radio" name="gender" value="famale" />Famale
+
+      <br />
+      <!-- checkbox امتازت بان يختار اخيار واح اواكثر من اختيار بنفس الوقت  -->
+      <label for="red">Red :</label>
+      <input type="checkbox" name="red" value="red" />red
+      <label for="green">Green :</label>
+      <input type="checkbox" name="green" value="gender" />green
+      <label for="blue">Blue :</label>
+      <input type="checkbox" name="blue" value="blue" />blue
+
+      <br /><br /><br /><br /><br /><br />
+      <input type="submit" id="submit" value="submit" />
+    </form>
+  </body>
+</html>

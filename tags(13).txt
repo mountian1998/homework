@@ -1,0 +1,18 @@
+
+
+
+
+
+
+
+
+
+<!-- textarea ( (rows="30"الطول  حقه) and (cols="80"العرض حقه ) ) -->
+<!-- rows="30"الطول  حقه بعني اخر الصفوف  -->
+
+
+
+<!-- تاج p يعمل لي فاصلات  -->
+<p>ebraheem :<q>this is paragraph</q></p>
+
+ebraheem  :  "this is paragraph"
